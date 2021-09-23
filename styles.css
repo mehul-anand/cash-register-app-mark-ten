@@ -17,3 +17,12 @@ body{
 .cash-given-div{
     display: none;
 }
+
+.heading{
+    color: var(--mustard-color);
+}
+
+.intro{
+    color: var(--mustard-color);
+    font-size: 1.2rem;
+}
