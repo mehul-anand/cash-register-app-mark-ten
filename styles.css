@@ -54,9 +54,10 @@ body{
 .caption-class{
     color: var(--mustard-color);
     font-size: 1.2rem;  
+    margin: 1rem;
 }
 
-#change-table{
+.change-table{
     display: none;
 }
 
