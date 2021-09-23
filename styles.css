@@ -50,3 +50,8 @@ body{
     height: 5vh;
     
 }
+
+.caption-class{
+    color: var(--mustard-color);
+    font-size: 1.2rem;  
+}
