@@ -42,3 +42,11 @@ body{
     color: var(--mustard-color);
     font-size: 1.2rem;    
 }
+
+.button-color{
+    background-color:var(--mustard-color) ;
+    width: 135px;
+    margin: auto;
+    height: 5vh;
+    
+}
