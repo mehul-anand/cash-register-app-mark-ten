@@ -26,3 +26,14 @@ body{
     color: var(--mustard-color);
     font-size: 1.2rem;
 }
+
+.label-class{
+    color: var(--mustard-color);
+    font-size: 1.2rem; 
+}
+
+.input-color{
+    background-color: var(--purple-white) ;
+    margin: 1rem 0rem;
+    padding: 0.5rem 1rem;
+}
