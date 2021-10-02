@@ -41,7 +41,12 @@ checkButton.addEventListener("click", function cash() {
                 tableDiv.style.display = "none";
                 nextButton.style.display = "block"
             }
-        } else {
+        }else if (Number(cashGiven.value) === 0) {
+            cashDiv.style.display = "none";
+            tableDiv.style.display = "none";
+            nextButton.style.display = "block"
+            showMessage("Cash can't be zero (0)")
+        }else {
             cashDiv.style.display = "none";
             tableDiv.style.display = "none";
             nextButton.style.display = "block"
