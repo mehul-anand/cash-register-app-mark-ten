@@ -17,6 +17,7 @@ nextButton.addEventListener("click", function next() {
         cashDiv.style.width = "50vh";
     } else if (Number(billAmount.value) === 0) {
         showMessage("Bill Amount can't be zero (0)");
+        billAmount.placeholder = 0
     } else {
         showMessage("Bill Amount can't be negative");
     }
@@ -54,6 +55,7 @@ checkButton.addEventListener("click", function cash() {
         }
     }else if (Number(billAmount.value) === 0){
         showMessage("Bill Amount can't be zero (0)");
+        billAmount.placeholder = 0
         cashDiv.style.display = "none";
         tableDiv.style.display = "none";
         nextButton.style.display = "block";
