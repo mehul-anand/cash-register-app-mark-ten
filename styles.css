@@ -80,19 +80,21 @@ body{
 }
 
 footer{
-    color: ivory;
-    padding: 2rem 1rem;
-    text-align:center;
-    margin: 3rem;
- 
+    background-color: var(--mustard-color);
+    color: var(--blue-color);
+    padding: auto;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer .link{
-    color: ivory;
+    color: var(--blue-color);
     font-size: 1.7rem;
 }
 
 footer ul{
     padding-inline-start: 0px;
-    /*this is to remove the default padding*/
 }
