@@ -31,6 +31,7 @@ if (Number(billAmount.value) > 0) {
     }
 }
 ```
+- Here we used `cashDiv.style.display = "flex"` before the display was set to `none`
 - If the user entered a valid bill amount then we will show the **Cash Div and the table** 
 - we used `<tr>` , `<th>` & `<td>` tags for the table
 - Then user will enter the Cash Given by them 
@@ -50,4 +51,6 @@ if (Number(billAmount.value) > 0) {
             tableDiv.style.display = "block";
         }
         ```
-    ### Resources
+### Resources
+- [Table](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
+- [style.display](https://www.w3schools.com/jsref/prop_style_display.asp)
