@@ -54,3 +54,4 @@ if (Number(billAmount.value) > 0) {
 ### Resources
 - [Table](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
 - [style.display](https://www.w3schools.com/jsref/prop_style_display.asp)
+- [truncate](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc)
